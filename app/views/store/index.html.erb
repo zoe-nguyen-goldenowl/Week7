@@ -1,6 +1,8 @@
 <% if notice %>
     <aside id="notice"><%= notice %></aside>
 <% end %>
+
+<div class= "count">Count of hits store: <%= $counter %></div>
 <h1>Your Pragmatic Catalog</h1>
 <ul class="catalog">    
     <% cache @products do %>
