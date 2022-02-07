@@ -68,10 +68,8 @@ class LineItemsController < ApplicationController
   def decreasequantity
     # lineitem = LineItem.find(params[:id])
     # lineitem.updated(quantity: quantity-1)
-    # respond_to do |format|
-    #   format.html { redirect_to line_items_url, notice: "Line item was successfully destroyed." }
-    #   format.json { head :no_content }
-    # end
+  
+
   end
 
   private
